@@ -1,1 +1,3 @@
 # informatika-cke
+
+Adrian Awsztel
