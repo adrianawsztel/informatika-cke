@@ -6,8 +6,6 @@ with open('szyfr1.txt') as file:
     szyfr1Key = list(map(int, szyfr1[-1].split()))
     szyfr1.pop()
 
-# 76.1
-
 def szyfrowanko(keys, word):
     wordKeyed = list(word)
     n = len(keys)
@@ -19,8 +17,6 @@ def szyfrowanko(keys, word):
 for word in szyfr1:
     print(szyfrowanko(szyfr1Key, word))
 
-# 76.2
-
 szyfr2 = []
 szyfr2Key = None
 with open('szyfr2.txt') as file:
@@ -31,5 +27,3 @@ with open('szyfr2.txt') as file:
 
 for word in szyfr2:
     print(szyfrowanko(szyfr2Key, word))
-
-# 76.3
